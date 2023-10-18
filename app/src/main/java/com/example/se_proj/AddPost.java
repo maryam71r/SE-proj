@@ -92,6 +92,7 @@ public class AddPost extends AppCompatActivity {
                     Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(intent);
 
+
                 });
             } else {
                 // Inform the user to select an image before posting
@@ -120,4 +121,6 @@ public class AddPost extends AppCompatActivity {
                 // Perform further processing of the selected image
             }
         }
+
+
     }

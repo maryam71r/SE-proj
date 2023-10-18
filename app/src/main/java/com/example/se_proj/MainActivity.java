@@ -40,8 +40,66 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+}
+
+class userInfo
+{
+String userID;
+String img_url;
+
+String desc;
+
+int timespamp;
 
 
+    public userInfo(String userID, String img_url, String desc, int timespamp) {
+        this.userID = userID;
+        this.img_url = img_url;
+        this.desc = desc;
+        this.timespamp = timespamp;
+    }
+
+    public String getUserID() {
+        return userID;
+    }
+
+    public void setUserID(String userID) {
+        this.userID = userID;
+    }
+
+    public String getImg_url() {
+        return img_url;
+    }
+
+    public void setImg_url(String img_url) {
+        this.img_url = img_url;
+    }
+
+    public String getDesc() {
+        return desc;
+    }
+
+    public void setDesc(String desc) {
+        this.desc = desc;
+    }
+
+    public int getTimespamp() {
+        return timespamp;
+    }
+
+    public void setTimespamp(int timespamp) {
+        this.timespamp = timespamp;
+    }
+
+    @Override
+    public String toString() {
+        return "userInfo{" +
+                "userID='" + userID + '\'' +
+                ", img_url='" + img_url + '\'' +
+                ", desc='" + desc + '\'' +
+                ", timespamp=" + timespamp +
+                '}';
+    }
 }
 
 
