@@ -54,17 +54,19 @@
 
     <TextView
         android:id="@+id/img_url"
-        android:layout_width="117dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="84dp"
+        android:layout_width="214dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="152dp"
         android:ems="10"
         android:hint="Enter Image Url"
         android:inputType="text"
         android:minHeight="48dp"
         android:text="Image Url"
+        android:textAlignment="center"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/picker" />
+        app:layout_constraintTop_toBottomOf="@+id/picker"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/user_description"
@@ -115,8 +117,8 @@
         android:id="@+id/imageView"
         android:layout_width="107dp"
         android:layout_height="116dp"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="95dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="148dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/picker"
         tools:srcCompat="@tools:sample/avatars" />
