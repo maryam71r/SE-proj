@@ -64,6 +64,7 @@
         android:minHeight="48dp"
         android:text="Image Url"
         android:textAlignment="center"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/picker"
         tools:ignore="TouchTargetSizeCheck" />
@@ -99,6 +100,7 @@
         android:layout_marginTop="42dp"
         android:onClick="onPostButtonClick"
         android:text="Post"
+        app:iconPadding="0dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/user_description" />
 

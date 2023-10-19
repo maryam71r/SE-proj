@@ -21,7 +21,6 @@ public class AddPost extends AppCompatActivity {
 
     Button profile;
 
-    Button post;
     TextView img_url;
     EditText user_desc;
 
@@ -82,18 +81,11 @@ public class AddPost extends AppCompatActivity {
 
 
                 //after posting, redirect user to their profile to see the new post
-                post = findViewById(R.id.insertbtn);
-
-                post.setOnClickListener(v ->
-
-                {
-
-
                     Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(intent);
 
 
-                });
+
             } else {
                 // Inform the user to select an image before posting
                 Toast.makeText(this, "Please select an image before posting.", Toast.LENGTH_SHORT).show();
